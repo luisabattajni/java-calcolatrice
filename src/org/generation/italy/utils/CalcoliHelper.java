@@ -9,90 +9,90 @@ public class CalcoliHelper {
 	
 		
 		//metodo Somma di due numeri interi
-		public static int sommaDueInteri (int primoInt, int secondoInt) {
-			return primoInt + secondoInt;
+		public static int somma (int a, int b) {
+			return a + b;
 		}
 		
 		//metodo Somma di due numeri double
-		public static double sommaDueDouble (double primoDouble, double secondoDouble) {
-			return primoDouble + secondoDouble;
+		public static double somma (double a, double b) {
+			return a + b;
 		}
 		//metodo Differenza di due numeri interi
-		public static int differenzaDueInteri (int primoInt, int secondoInt) {
-			return primoInt - secondoInt;
+		public static int differenza (int a, int b) {
+			return a - b;
 		}
 		
 		//metodo Differenza di due numeri double
-		public static double differenzaDueDouble (double primoDouble, double secondoDouble) {
-			return primoDouble - secondoDouble;
+		public static double differenza (double a, double b) {
+			return a - b;
 		}
 		
 		//metodo Moltiplicazione di due numeri interi
-		public static int moltiplicazioneDueInteri (int primoInt, int secondoInt) {
-			return primoInt * secondoInt;
+		public static int moltiplicazione (int a, int b) {
+			return a * b;
 		}
 		//metodo Moltiplicazione di due numeri double
-		public static double moltiplicazioneDueDouble (double primoDouble, double secondoDouble) {
-			return primoDouble * secondoDouble;
+		public static double moltiplicazione (double a, double b) {
+			return a * b;
 		}
 		
 		//metodo Valore assoluto di un numero intero
-		public static int valoreAssolutoInteri (int primoInt) {
-			if (primoInt >= 0) {
-				return primoInt;
+		public static int valoreAssoluto (int a) {
+			if (a >= 0) {
+				return a;
 			} else {
-				return primoInt * -1;
+				return a * -1;
 			}
 		}
 		
 		//metodo Valore assoluto di un numero double
-		public static double valoreAssolutoDouble (double primoDouble) {
-			if (primoDouble >= 0) {
-				return primoDouble;
+		public static double valoreAssoluto (double a) {
+			if (a >= 0) {
+				return a;
 			} else {
-				return primoDouble * -1;
+				return a * -1;
 			}
 		}
 	
 		//metodo Minimo tra due numeri interi
-		public static int minTraDueInteri (int primoInt, int secondoInt) {
-			if (primoInt < secondoInt) {
-				return primoInt;
-			} else if (secondoInt < primoInt) {
-				return secondoInt;
+		public static int minTraDueN (int a, int b) {
+			if (a < b) {
+				return a;
+			} else if (b < a) {
+				return b;
 			} else {
-				return primoInt = secondoInt;
+				return a = b;
 			}
 		}
 		//metodo Minimo tra due numeri double
-		public static double minTraDueDouble (double primoDouble, double secondoDouble) {
-			if (primoDouble < secondoDouble) {
-				return primoDouble;
-			} else if (secondoDouble < primoDouble) {
-				return secondoDouble;
+		public static double minTraDueN (double a, double b) {
+			if (a < b) {
+				return a;
+			} else if (b < a) {
+				return b;
 			} else {
-				return primoDouble = secondoDouble;
+				return a = b;
 			}
 		}
 		
 		//metodo Massimo tra due numeri interi
-		public static int maxTraDueInteri (int primoInt, int secondoInt) {
-			if (secondoInt < primoInt) {
-				return primoInt;
-			} else if (primoInt < secondoInt) {
-				return secondoInt;
+		public static int maxTraDueN (int a, int b) {
+			if (b < a) {
+				return a;
+			} else if (a < b) {
+				return b;
 			} else {
-				return primoInt = secondoInt;
+				return a = b;
 			}
 		}
 		//metodo Minimo tra due numeri double
-		public static double maxTraDueDouble (double primoDouble, double secondoDouble) {
-			if (secondoDouble < primoDouble) {
-				return primoDouble;
-			} else if (primoDouble < secondoDouble) {
-				return secondoDouble;
+		public static double maxTraDueN (double a, double b) {
+			if (b < a) {
+				return a;
+			} else if (a < b) {
+				return b;
 			} else {
-				return primoDouble = secondoDouble;
+				return a = b;
 			}
 		}
 		
