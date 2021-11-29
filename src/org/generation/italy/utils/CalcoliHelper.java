@@ -5,7 +5,7 @@ public class CalcoliHelper {
 		
 	}
 	
-//	 *  viene applicato l'OVERLOAD, un tipo di polimorfismo
+//	  viene applicato l'OVERLOAD, un tipo di polimorfismo
 	
 	
 //	* 		Somma di due numeri interi
@@ -51,18 +51,23 @@ public class CalcoliHelper {
 		public static double moltiplicazioneDueDouble (double primoDouble, double secondoDouble) {
 			return primoDouble * secondoDouble;
 		}
-	
-		//i valori assoluti sono sbagliati, controllare dopo
-		//edit per ora li ho messi un attimo in math, poi sistemo
 		
 		//metodo Valore assoluto di un numero intero
 		public static int valoreAssolutoInteri (int primoInt) {
-			return Math.abs(primoInt);
+			if (primoInt >= 0) {
+				return primoInt;
+			} else {
+				return primoInt * -1;
+			}
 		}
 		
 		//metodo Valore assoluto di un numero double
 		public static double valoreAssolutoDouble (double primoDouble) {
-			return Math.abs(primoDouble);
+			if (primoDouble >= 0) {
+				return primoDouble;
+			} else {
+				return primoDouble * -1;
+			}
 		}
 	
 		//metodo Minimo tra due numeri interi
