@@ -7,22 +7,6 @@ public class CalcoliHelper {
 	
 //	  viene applicato l'OVERLOAD, un tipo di polimorfismo
 	
-	
-//	* 		Somma di due numeri interi
-//	* 		Somma di due numeri double
-//	* 		Differenza tra due numeri interi
-//	* 		Differenza tra due numeri double
-//	* 		Moltiplicazione di due numeri interi
-//	* 		Moltiplicazione di due numeri double
-//	* 		Valore assoluto di un numero intero
-//	* 		Valore assoluto di un numero double
-//	* 		Minimo tra due numeri interi
-//	* 		Minimo tra due numeri double
-//	* 		Massimo tra due numeri interi
-//	* 		Massimo tra due numeri double
-	
-
-		//
 		
 		//metodo Somma di due numeri interi
 		public static int sommaDueInteri (int primoInt, int secondoInt) {
@@ -111,5 +95,8 @@ public class CalcoliHelper {
 				return primoDouble = secondoDouble;
 			}
 		}
+		
+
+		
 	
 }
